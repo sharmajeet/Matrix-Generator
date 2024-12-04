@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Matrix Generator</title>
+  </head>
+
+  <body>
+    <div class="container">
+      <h1>Matrix Generator</h1>
+      <form id="matrixForm">
+        <label for="rows">Rows:</label>
+        <input type="number" id="rows" />
+        <label for="cols">Columns:</label>
+        <input type="number" id="cols" />
+        <button type="button" id="generateMatrix">Generate Matrix</button>
+      </form>
+      <br />
+      <div id="matrixContainer"></div>
+      <br />
+      <button id="submitMatrix" style="display: none">Submit Matrix</button>
+      <div id="result" style="margin-top: 20px"></div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
